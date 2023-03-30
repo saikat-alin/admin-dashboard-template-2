@@ -1,0 +1,92 @@
+a {
+  text-decoration: none;
+
+  span {
+    color: rgb(211, 216, 223);
+  }
+
+  li {
+    padding: 0 !important;
+
+    &:hover {
+      background-color: rgba(172, 186, 190, 0.082);
+    }
+  }
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 5px;
+  color: rgb(150, 188, 218);
+}
+
+.drop-icon {
+  font-size: 13px;
+  margin-left: 8px;
+  color: rgb(148, 174, 214);
+}
+
+.arrow {
+  color: rgb(182, 179, 179);
+  font-size: 20px !important;
+}
+
+.select-container {
+  span {
+    color: rgb(211, 216, 223);
+  }
+
+  &:hover {
+    background-color: rgba(172, 186, 190, 0.082) !important;
+  }
+}
+
+.dropdown-container {
+  span {
+    font-size: 13.5px;
+    margin-left: 10px;
+    color: rgb(211, 216, 223);
+  }
+}
+
+.active {
+  li {
+    background-color: rgba(131, 142, 145, 0.192);
+  }
+
+  .drop-icon {
+    color: goldenrod;
+  }
+
+  .icon {
+    color: goldenrod;
+  }
+
+  span {
+    color: white;
+  }
+}
+
+// .sidebar-close {
+//   margin-left: 70px !important;
+//   margin-right: 5px;
+//   margin-top: 80px;
+//   transition: all 0.3s ease;
+// }
+
+// .sidebar-open {
+//   margin-left: 245px !important;
+//   margin-right: 5px;
+//   margin-top: 80px;
+//   transition: all 0.3s ease;
+// }
+
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #1e1e2d;
+}
+
+@media (min-width: 100px) {
+  .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+    background-color: #1e1e2d;
+  }
+}

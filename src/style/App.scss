@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.content-close {
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
+
+.content-open {
+  margin-left: 250px;
+  margin-top: 80px;
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
+
+/* page Height */
+.pageHeight {
+  min-height: calc(100vh - 140px);
+}
+
+/* Scroll-bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(77, 79, 82);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(131, 133, 134);
+}
