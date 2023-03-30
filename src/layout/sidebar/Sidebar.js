@@ -88,7 +88,7 @@ const Sidebar = () => {
 
   // Expand
   function clicked() {
-    if (expand != true) {
+    if (expand !== true) {
       sessionStorage.setItem("clicked", JSON.stringify(true));
       sessionStorage.setItem("clicked1", JSON.stringify(false));
       sessionStorage.setItem("clicked2", JSON.stringify(false));
@@ -103,7 +103,7 @@ const Sidebar = () => {
 
   // Expand1
   function clicked1() {
-    if (expand1 != true) {
+    if (expand1 !== true) {
       sessionStorage.setItem("clicked1", JSON.stringify(true));
       sessionStorage.setItem("clicked", JSON.stringify(false));
       sessionStorage.setItem("clicked2", JSON.stringify(false));
@@ -118,7 +118,7 @@ const Sidebar = () => {
 
   // Expand2
   function clicked2() {
-    if (expand2 != true) {
+    if (expand2 !== true) {
       sessionStorage.setItem("clicked2", JSON.stringify(true));
       sessionStorage.setItem("clicked", JSON.stringify(false));
       sessionStorage.setItem("clicked1", JSON.stringify(false));
