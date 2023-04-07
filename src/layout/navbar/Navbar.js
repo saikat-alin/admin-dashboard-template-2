@@ -75,7 +75,7 @@ const Navbar = () => {
           ATI Limited
         </Typography>
 
-        <Box>
+        <Box sx={{ml:"auto"}}>
           <IconButton
             size="large"
             aria-label="account of current user"
